@@ -14,16 +14,15 @@ import androidx.fragment.app.FragmentTransaction;
 import com.example.gb_android_client.Calculator.CalculatorFragment;
 import com.example.gb_android_client.MainActivity;
 import com.example.gb_android_client.R;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class HomeFragment extends Fragment {
+public class ToolsFragment extends Fragment {
     //логику отсюда перенести в презентер
 
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
+        View root = inflater.inflate(R.layout.fragment_tools, container, false);
         final TextView textView = root.findViewById(R.id.text_home);
         textView.setText("This is home fragment");
 
