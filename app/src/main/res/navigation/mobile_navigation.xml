@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_tools">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.example.gb_android_client.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_tools"
+        android:name="com.example.gb_android_client.ui.tools.ToolsFragment"
+        android:label="@string/title_tools"
+        tools:layout="@layout/fragment_tools" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.gb_android_client.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:id="@+id/navigation_shipments"
+        android:name="com.example.gb_android_client.ui.shipments.ShipmentsFragment"
+        android:label="@string/title_shipments"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.gb_android_client.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
+        android:id="@+id/navigation_warehouse"
+        android:name="com.example.gb_android_client.ui.Warehouse.WarehouseFragment"
+        android:label="@string/title_warehouse"
         tools:layout="@layout/fragment_notifications" />
 </navigation>

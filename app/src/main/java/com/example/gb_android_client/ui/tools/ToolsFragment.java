@@ -1,4 +1,4 @@
-package com.example.gb_android_client.ui.home;
+package com.example.gb_android_client.ui.tools;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,8 +14,9 @@ import androidx.fragment.app.FragmentTransaction;
 import com.example.gb_android_client.Calculator.CalculatorFragment;
 import com.example.gb_android_client.MainActivity;
 import com.example.gb_android_client.R;
+import com.example.gb_android_client.myMVP.MyView;
 
-public class ToolsFragment extends Fragment {
+public class ToolsFragment extends Fragment implements MyView {
     //логику отсюда перенести в презентер
 
 
@@ -27,7 +28,7 @@ public class ToolsFragment extends Fragment {
         textView.setText("This is home fragment");
 
 
-        final Button button = root.findViewById(R.id.button_start_calculator);
+        final Button button = root.findViewById(R.id.button_launch_calculator);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

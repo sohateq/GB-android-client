@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.gb_android_client.R;
 
-public class NotificationsFragment extends Fragment {
+public class WarehouseFragment extends Fragment {
 
 
 

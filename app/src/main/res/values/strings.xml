@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">gb-android-client</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_tools">Tools</string>
+    <string name="title_shipments">Shipments</string>
+    <string name="title_warehouse">Warehouse</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="launch_calc">Calculate the price</string>
 </resources>

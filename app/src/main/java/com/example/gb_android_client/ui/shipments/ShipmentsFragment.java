@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.gb_android_client.R;
 
-public class DashboardFragment extends Fragment {
+public class ShipmentsFragment extends Fragment {
 
 
 
