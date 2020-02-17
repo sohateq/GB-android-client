@@ -42,10 +42,10 @@ public class CalculatorFragment extends Fragment implements MyView {
         calcButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (!editHeight.getText().toString().equals("") && !editLenght.getText().toString().equals("")) {
-                    presenter.calculatorStart(Integer.parseInt(editHeight.getText().toString()),
-                            Integer.parseInt(editLenght.getText().toString()));
-                }
+
+                presenter.calculatorStart(editHeight.getText().toString(),
+                        editLenght.getText().toString());
+
 
             }
         });
